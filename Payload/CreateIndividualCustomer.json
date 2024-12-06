@@ -1,0 +1,164 @@
+{
+    "kyc": {
+        "account_purpose": "ISLAMIC BANKING",
+        "financial_institutes": [],
+        "corporate_kyc": {
+            "crs": {},
+            "key_persons": [],
+            "legal_entities": []
+        },
+        "kyc_type": "RETAIL_CUSTOMER",
+        "expected_transactions": [{
+            "amount": 2000,
+            "type": "CASH_DEPOSIT",
+            "frequency": "MONTHLY"
+        }],
+        "has_other_finance_institution": false,
+        "fatca": {
+            "retail_fatca": {},
+            "corporate_fatca": {}
+        },
+        "tins": [],
+        "peps": [],
+        "is_beneficial_owner": false,
+        "retail_kyc": {
+            "other_source_of_income": "Hello world",
+            "employment_type": {
+                "is_self_employed": false,
+                "is_provided_customer": false,
+                "is_trading": false,
+                "is_kyc_business": false,
+                "is_kyc_others": false,
+                "is_consult_professional": false,
+                "is_investment": false,
+                "is_government_employed": false
+            },
+            "source_of_income": {
+                "is_profile_business_income": false,
+                "is_business_income": false,
+                "is_salary_income": false,
+                "is_investment_income": false,
+                "is_rental_income": false,
+                "is_overseas_income": false
+            },
+            "is_pep": false,
+            "is_resident": false
+        },
+        "next_review_date": "2024-09-10"
+    },
+    "customer": {
+        "customer_profile": {
+            "customer_type": "RETAIL_CUSTOMER",
+            "income": [{
+                "amount": 1000,
+                "currency": "KWD",
+                "source": "SALARY"
+            }],
+            "residency_status": "RESIDENT",
+            "addresses": [
+                {
+                    "address_info": {
+                        "area": "Governorate",
+                        "country": "KUWAIT",
+                        "address_lines": {
+                            "address3": "1234",
+                            "address2": "1234",
+                            "address1": "1234"
+                        },
+                        "governorate": "??????_???????",
+                        "postal_code": "12345"
+                    },
+                    "language": "EN"
+                },
+                {
+                    "address_info": {
+                        "area": "Governorate",
+                        "country": "KUWAIT",
+                        "address_lines": {
+                            "address3": "1234",
+                            "address2": "1234",
+                            "address1": "1234"
+                        },
+                        "governorate": "??????_???????",
+                        "postal_code": "12345"
+                    },
+                    "language": "AR"
+                }
+            ],
+            "birth_city": "JAHRA",
+            "is_staff": false,
+            "liability": {},
+            "rating": {
+                "snp": "A",
+                "moody": "C",
+                "fitch": "A"
+            },
+            "contact_info": {
+                "mobile": "79854125",
+                "type": "MOBILE",
+                "mobile_country_code": "+965",
+                "is_sms_option_active": false,
+                "preferred_channel": "SMS"
+            },
+            "customer_segment": "W_SEGMENT",
+            "identifications": [{
+                "issue_date": "2023-03-03",
+                "expiry": "2030-12-12",
+                "type": "PASSPORT",
+                "value": "211ABC11ABC7763",
+                "issue_country": "KW"
+            }],
+            "birth_country": "KUWAIT",
+            "names": [
+                {
+                    "name": {
+                        "full_name": "PTABCWMWAPI",
+                        "last_name": "API",
+                        "middle_name": "WMW",
+                        "first_name": "PTABC"
+                    },
+                    "language": "EN"
+                },
+                {
+                    "name": {
+                        "full_name": "???? ???? ??????",
+                        "last_name": "??????",
+                        "middle_name": "????",
+                        "first_name": "????"
+                    },
+                    "language": "AR"
+                }
+            ],
+            "nationality": "BAHAMAS",
+            "customer_vip_status": "NO",
+            "employer_type": "PRIVATE",
+            "employer": "WARBA_BANK",
+            "employment_status": "OTHER",
+            "sector_code": "MINISTRY_OF_OIL",
+            "relations": [],
+            "preferred_language": "EN"
+        },
+        "customer_identity": {
+            "branch_code": "200",
+            "prefixes": [],
+            "gender": "M",
+            "disability": {},
+            "date_of_birth": "2000-07-29",
+            "relationship_manager": "NAWAF.ALBANWA",
+            "corporate_profile": {},
+            "deal_country": "KUWAIT",
+            "opening_channel": "1",
+            "cbk_information": {
+                "country_code": "OMAN",
+                "ibsm_mis": "PRIVATE_BANKS_COMMERCIAL_RESIDENT",
+                "capital_adequacy_ratio": "CLAIMS_ON_OTHER_COUNTRIES",
+                "account_officer": "SHUHADA_BRANCH",
+                "business_segment": "normal",
+                "internal_classification": "AL_RAYA_BRANCH",
+                "purpose_of_financing": "ISLAMIC BANKING",
+                "department": "ABCD",
+                "classification": "BANKS_RESIDENT"
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "branch_code": "200",
+    "cif": "1434815",
+    "en_full_name": "Nicky",
+    "account_currency": "KWD",
+    "permissions": {
+        "debit_allowed": true,
+        "credit_allowed": true
+    },
+    "holds": [{
+        "branch_code": "200",
+        "account_number": "",
+        "maker_date": "",
+        "amount": 0,
+        "expiry_date": "",
+        "effective_date": "",
+        "hold_ref_number": "",
+        "maker": "",
+        "checker_date": "",
+        "remark": "",
+        "checker": "",
+        "type": ""
+    }],
+    "details": {
+        "account_class": "KW.CUR.ACC.CUR01",
+        "sukuk_type": "",
+        "mis_department_code": "001",
+        "maker": "",
+        "relationship_manager": "",
+        "checker": "",
+        "mobile_number": "",
+        "settlement": true,
+        "has_debit_card": true
+    }
+}
